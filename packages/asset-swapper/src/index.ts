@@ -75,6 +75,7 @@ export { SwapQuoteConsumer } from './quote_consumers/swap_quote_consumer';
 export { SwapQuoter, Orderbook } from './swap_quoter';
 export {
     AffiliateFeeAmount,
+    AffiliateFeeType,
     AssetSwapperContractAddresses,
     CalldataInfo,
     ExchangeProxyContractOpts,
