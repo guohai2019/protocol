@@ -21,6 +21,10 @@
             {
                 "note": "Support `Mirror Protocol` with hops to `UST`",
                 "pr": 142
+            },
+            {
+                "note": "Added an opt-in `PositiveSlippageAffiliateFee`",
+                "pr": 101
             }
         ]
     },
