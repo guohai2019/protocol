@@ -149,7 +149,7 @@ export class ExchangeProxySwapQuoteConsumer implements SwapQuoteConsumerBase {
                     .getABIEncodedTransactionData(),
                 ethAmount: isFromETH ? sellAmount : ZERO_AMOUNT,
                 toAddress: this._exchangeProxy.address,
-                allowanceTarget: this.contractAddresses.exchangeProxyAllowanceTarget,
+                allowanceTarget: this.contractAddresses.exchangeProxy,
             };
         }
 
@@ -170,7 +170,7 @@ export class ExchangeProxySwapQuoteConsumer implements SwapQuoteConsumerBase {
                     .getABIEncodedTransactionData(),
                 ethAmount: isFromETH ? sellAmount : ZERO_AMOUNT,
                 toAddress: this._exchangeProxy.address,
-                allowanceTarget: this.contractAddresses.exchangeProxyAllowanceTarget,
+                allowanceTarget: this.contractAddresses.exchangeProxy,
             };
         }
 
@@ -195,7 +195,7 @@ export class ExchangeProxySwapQuoteConsumer implements SwapQuoteConsumerBase {
                     .getABIEncodedTransactionData(),
                 ethAmount: isFromETH ? sellAmount : ZERO_AMOUNT,
                 toAddress: this._exchangeProxy.address,
-                allowanceTarget: this.contractAddresses.exchangeProxyAllowanceTarget,
+                allowanceTarget: this.contractAddresses.exchangeProxy,
             };
         }
 
@@ -215,7 +215,7 @@ export class ExchangeProxySwapQuoteConsumer implements SwapQuoteConsumerBase {
                     .getABIEncodedTransactionData(),
                 ethAmount: isFromETH ? sellAmount : ZERO_AMOUNT,
                 toAddress: this._exchangeProxy.address,
-                allowanceTarget: this.contractAddresses.exchangeProxyAllowanceTarget,
+                allowanceTarget: this.contractAddresses.exchangeProxy,
             };
         }
 
@@ -331,7 +331,7 @@ export class ExchangeProxySwapQuoteConsumer implements SwapQuoteConsumerBase {
             calldataHexString,
             ethAmount,
             toAddress: this._exchangeProxy.address,
-            allowanceTarget: this.contractAddresses.exchangeProxyAllowanceTarget,
+            allowanceTarget: this.contractAddresses.exchangeProxy,
         };
     }
 
